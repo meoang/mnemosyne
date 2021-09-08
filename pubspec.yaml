@@ -1,0 +1,53 @@
+name: mnemosyne
+description: A Flutter project for UMGC - Charlie.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_speech: ^2.0.1
+  sound_stream: ^0.2.0
+  rxdart: ^0.27.0
+  highlight_text: ^0.7.2
+  avatar_glow: ^1.2.0
+  workmanager: ^0.3.0
+  encrypt: ^5.0.0
+  flutter_tts: ^3.1.0
+  path_provider: ^2.0.1
+  sound_recorder: ^0.0.2
+  audioplayers: ^0.18.3
+  local_auth: ^1.1.6
+  permission_handler: ^8.1.4+1
+  flutter_local_notifications: ^8.0.0
+  flutter_native_timezone: ^2.0.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  shared_preferences_web: ^2.0.1
+  url_launcher: ^6.0.9
+  url_launcher_web: ^2.0.2
+  intl: ^0.17.0
+
+dev_dependencies:
+  # test: ^1.17.9
+  flutter_test:
+    sdk: flutter
+  effective_dart: ^1.3.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/sound/
